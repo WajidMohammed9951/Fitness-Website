@@ -12,7 +12,7 @@ export const youtubeOptions = {
     'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com',
     'X-RapidAPI-Key': '9993b5c451msh84f51b51c1599bdp1ce851jsn8c8542f2c12a',
   },
-};
+};                          
 
 export const fetchData = async (url, options) => {
   const res = await fetch(url, options);
